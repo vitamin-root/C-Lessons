@@ -10,7 +10,7 @@ namespace Lesson_1
     internal class Program
     {
         static void Main(string[] args)
-        {
+        { 
             Console.ForegroundColor = ConsoleColor.Red;
 
             System.Console.WriteLine("Hello, \"World!\"");
@@ -163,7 +163,7 @@ namespace Lesson_1
             Console.WriteLine("X format: {0:X}", 99999);
 
             // 16 - ричный формат с отображением строчных букв
-            Console.WriteLine("x format: {0:x}", 99999);
+            Console.WriteLine("x format: {0:x}", 99999); 
 
             Console.WriteLine("P format: {0:P}", 25);
             //Console.ReadLine();
