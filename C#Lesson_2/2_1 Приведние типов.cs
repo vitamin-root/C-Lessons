@@ -97,7 +97,7 @@ namespace Lesson_2
             Console.WriteLine("Номер дня в году: " + dateTime.DayOfYear);
 
 
-#if false
+#if true
 
             int x;
             func(out x);
