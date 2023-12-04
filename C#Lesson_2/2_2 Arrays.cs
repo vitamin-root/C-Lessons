@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -50,7 +50,7 @@ namespace _2_2_Arrays
 
             int[]ar1 = new int[5] { 12,9,8,7,6};
             int[]ar2 = new int[] { 12,9,8,7,6,9,12,-5,6};
-            int[] ar3 = { 2,3,-5,8,7};
+            int[]ar3 = { 2,3,-5,8,7};
             string[] fruites = { "яблоко", "груша", "слива", "айва", "груша", "персик" };
 
             Console.WriteLine(ar1.GetType());
@@ -65,7 +65,7 @@ namespace _2_2_Arrays
 
             Console.WriteLine("Количество байт в строке: " + byteCount);
             Console.WriteLine("Количество байт в строке: " + byteCount2);
-
+               
             Console.WriteLine("Размер строки в байтах: " + myString.Length * sizeof(char));
 
             Console.WriteLine(System.Text.Encoding.Default.GetType());
@@ -79,7 +79,7 @@ namespace _2_2_Arrays
                 ar1[i] *= 2;
                 //Console.Write(ar1[i] + "  ");
                 //Console.Write("{0}  ", ar1[i]);
-                Console.Write($"{ar1[i]}  ");// интерполированная строка
+                Console.Write($"{ar1[i]}  ");// и  нтерполированная строка
             }
             Console.WriteLine();
             foreach(var i in ar2)

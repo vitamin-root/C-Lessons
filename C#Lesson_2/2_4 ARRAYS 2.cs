@@ -70,7 +70,7 @@ namespace _2_4_ARRAYS_2
             {
                 Console.Write(v + "  ");
             }
-            Console.WriteLine();
+             Console.WriteLine();
             Console.WriteLine();
 
             Console.WriteLine();

@@ -1,4 +1,4 @@
-﻿using System;
+﻿  using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +22,12 @@ namespace Lesson_2
         static void Main(string[] args)
         {
 
+            int[] numbers1 = { 1, 2, };
+            int[] numbers2 = {3,4, 5 };
+            Class1.ShowColorArr(numbers1);
+            Compare(numbers1, numbers2);
+            
+#if false
             MyColors myColors = MyColors.Red;
             Console.WriteLine(myColors); // Red
 
@@ -96,8 +102,8 @@ namespace Lesson_2
             Console.WriteLine(dateTime.ToLongDateString());
             Console.WriteLine("Номер дня в году: " + dateTime.DayOfYear);
 
-
-#if true
+#endif
+#if false
 
             int x;
             func(out x);

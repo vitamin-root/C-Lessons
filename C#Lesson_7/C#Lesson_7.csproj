@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{17103577-E908-47EA-B47B-C889DAD44BA3}</ProjectGuid>
+    <ProjectGuid>{B3D05792-6FDC-4E3A-B383-08ECF585F4C7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>C_Lesson_4</RootNamespace>
-    <AssemblyName>C#Lesson_4</AssemblyName>
+    <RootNamespace>C_Lesson_7</RootNamespace>
+    <AssemblyName>C#Lesson_7</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MyLibrary">
-      <HintPath>..\test\bin\Debug\MyLibrary.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,8 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="4 Строки.cs" />
+    <Compile Include="7_1 Use Rectangle.cs" />
+    <Compile Include="7_2 Use RectanglePoint.cs" />
+    <Compile Include="7_3 Use Bank.cs" />
+    <Compile Include="7_4 Extension Method.cs" />
+    <Compile Include="7_5 DataTime.cs" />
+    <Compile Include="Bank.cs" />
+    <Compile Include="Point.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rectangle.cs" />
+    <Compile Include="RectanglePoint.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

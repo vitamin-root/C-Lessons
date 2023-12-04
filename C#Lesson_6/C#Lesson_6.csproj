@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{17103577-E908-47EA-B47B-C889DAD44BA3}</ProjectGuid>
+    <ProjectGuid>{F762254A-7DF1-4AA1-96ED-BBE77A362472}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>C_Lesson_4</RootNamespace>
-    <AssemblyName>C#Lesson_4</AssemblyName>
+    <RootNamespace>C_Lesson_6</RootNamespace>
+    <AssemblyName>C#Lesson_6</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MyLibrary">
-      <HintPath>..\test\bin\Debug\MyLibrary.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,11 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="4 Строки.cs" />
+    <Compile Include="6_1 Use Coord.cs" />
+    <Compile Include="6_2 Use Point.cs" />
+    <Compile Include="Coord.cs" />
+    <Compile Include="Point.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Coord.vstheme">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

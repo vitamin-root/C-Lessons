@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{17103577-E908-47EA-B47B-C889DAD44BA3}</ProjectGuid>
+    <ProjectGuid>{5B7A378A-16EA-47AF-B1B4-3C1CF4D570E3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>C_Lesson_4</RootNamespace>
-    <AssemblyName>C#Lesson_4</AssemblyName>
+    <RootNamespace>C_Lesson_5</RootNamespace>
+    <AssemblyName>C#Lesson_5</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MyLibrary">
-      <HintPath>..\test\bin\Debug\MyLibrary.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="4 Строки.cs" />
+    <Compile Include="5  Методы.cs" />
+    <Compile Include="MyDll.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

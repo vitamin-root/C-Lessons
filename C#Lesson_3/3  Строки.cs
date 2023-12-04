@@ -40,7 +40,7 @@ namespace Lesson_3_Массивы_Строки
             operations = new string(math_op, 2,3);// со индекса 2 взять 3 значения
             Console.WriteLine(operations + " " + operations.Length);
 
-
+            //string.com
 
             Console.ReadLine();
         }
